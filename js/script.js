@@ -1,9 +1,5 @@
-
-
-
 const jump = () => {
-    mario.classList.add('jump');
-    
+    mario.classList.add('jump');    
     setTimeout(() => {
         mario.classList.remove('jump');
     }, 800);
@@ -30,8 +26,6 @@ const loop = setInterval(() => {
         
     }
     
-},10)
+},10);
+
 document.addEventListener('keydown', jump);
-
-
-
